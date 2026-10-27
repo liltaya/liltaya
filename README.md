@@ -12,7 +12,7 @@
 
 I'm an Engineering Science student at Simon Fraser University. I build tools people use: Qt6 desktop apps in modern C++, Python APIs, and data validation that catches bad records early. Every project here ships with automated tests and CI.
 
-**Looking for:** a full-time software co-op or internship, **May to December 2027**.
+**Looking for:** a full-time software co-op or internship, **December to August 2027**.
 
 ### Featured projects
 
