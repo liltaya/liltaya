@@ -25,8 +25,8 @@ I'm an Engineering Science student at Simon Fraser University. I build tools peo
 
 <table>
   <tr>
-    <td width="50%"><a href="https://liltaya.github.io/#stair-robot"><img src="assets/stair-robot.gif" alt="The stair-climbing robot moving its front leg linkage in the SFU engineering lab" width="100%"></a></td>
-    <td width="50%"><a href="https://github.com/liltaya/Construction-dashboard"><img src="assets/dashboard-overview.png" alt="Construction Analytics Dashboard, Overview tab: budget, actual cost, variance, completion, overdue tasks and labor hours" width="100%"></a></td>
+    <td width="50%"><a href="https://liltaya.github.io/#stair-robot"><img src="stair-robot.gif" alt="The stair-climbing robot moving its front leg linkage in the SFU engineering lab" width="100%"></a></td>
+    <td width="50%"><a href="https://github.com/liltaya/Construction-dashboard"><img src="dashboard-overview.png" alt="Construction Analytics Dashboard, Overview tab: budget, actual cost, variance, completion, overdue tasks and labor hours" width="100%"></a></td>
   </tr>
   <tr>
     <td><sub>Stair-climbing robot, ENSC 100 lab demo</sub></td>
