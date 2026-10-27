@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.png">
-  <img alt="Taisiia (Taya) Mamenko. Software engineering student at SFU: BASc Engineering Science, CGPA 3.87, based in Burnaby, BC, available for a full-time co-op May to December 2027." src="assets/banner-light.png" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.png">
+  <img alt="Taisiia (Taya) Mamenko. Software engineering student at SFU: BASc Engineering Science, CGPA 3.87, based in Burnaby, BC, available for a full-time co-op December to August 2027." src="banner-light.png" width="100%">
 </picture>
 
 <p>
