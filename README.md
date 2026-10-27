@@ -5,7 +5,6 @@
 
 <p>
   <a href="https://liltaya.github.io"><img alt="Portfolio: liltaya.github.io" src="https://img.shields.io/badge/Portfolio-liltaya.github.io-1E48C8?style=for-the-badge"></a>
-  <a href="https://www.linkedin.com/in/taya-mamenko-2978b4323"><img alt="LinkedIn: Taya Mamenko" src="https://img.shields.io/badge/LinkedIn-Taya_Mamenko-0A66C2?style=for-the-badge"></a>
   <a href="mailto:tma133@sfu.ca"><img alt="Email: tma133@sfu.ca" src="https://img.shields.io/badge/Email-tma133@sfu.ca-14223A?style=for-the-badge"></a>
 </p>
 
