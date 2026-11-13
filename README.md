@@ -1,81 +1,76 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.png">
-  <img alt="Taisiia (Taya) Mamenko. Software engineering student at SFU: BASc Engineering Science, CGPA 3.87, based in Burnaby, BC, available for a full-time co-op December to August 2027." src="banner-light.png" width="100%">
-</picture>
+<a href="https://liltaya.github.io"><img src="assets/banner.png" width="100%" alt="Taisiia (Taya) Mamenko. Engineering Science at Simon Fraser University. Made with care, tested with rigour. Available for a full-time co-op from December 2026 to August 2027. CGPA 3.87, based in Burnaby, BC."></a>
 
-<p>
-  <a href="https://liltaya.github.io"><img alt="Portfolio: liltaya.github.io" src="https://img.shields.io/badge/Portfolio-liltaya.github.io-1E48C8?style=for-the-badge"></a>
-  <a href="mailto:tma133@sfu.ca"><img alt="Email: tma133@sfu.ca" src="https://img.shields.io/badge/Email-tma133@sfu.ca-14223A?style=for-the-badge"></a>
+<p align="center">
+  <a href="https://liltaya.github.io"><b>Portfolio</b></a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/taya-mamenko-2978b4323"><b>LinkedIn</b></a> &nbsp;·&nbsp;
+  <a href="mailto:tma133@sfu.ca"><b>tma133@sfu.ca</b></a> &nbsp;·&nbsp;
+  <a href="https://liltaya.github.io/Taisiia_Mamenko_Resume.pdf"><b>Résumé</b></a>
 </p>
 
-### Hi, I'm Taya.
+I'm Taya, an Engineering Science student at Simon Fraser University. I build developer tools and data dashboards, and with my SFU teams, robots and games. Every solo project here runs its tests in CI on every change.
 
-I'm an Engineering Science student at Simon Fraser University. I build tools people use: Qt6 desktop apps in modern C++, Python APIs, and data validation that catches bad records early. Every project here ships with automated tests and CI.
+**Open to:** a full-time software or engineering co-op, **December 2026 to August 2027**.
 
-**Looking for:** a full-time software co-op or internship, **December to August 2027**.
+## Featured work
 
-### Featured projects
+<a href="https://github.com/liltaya/buildscope-ai"><img src="assets/buildscope-dashboard.jpg" width="100%" alt="BuildScope dashboard with a run matrix, pipeline graph, stage failure risk, regression window, unstable tests and a benchmark chart showing a 43.6 percent slowdown."></a>
 
-| Project | What it does | Built with |
-|:--|:--|:--|
-| **[BuildScope AI](https://github.com/liltaya/buildscope-ai)**<br><sub>In progress · Oct 2026</sub> | Registers local code repositories and detects each one's language, build system and test framework, with the evidence behind every result. 70+ pytest tests behind Ruff and mypy gates. | Python, FastAPI, SQLAlchemy, SQLite, C++20 |
-| **[Construction Analytics Dashboard](https://github.com/liltaya/Construction-dashboard)**<br><sub>Sep to Oct 2026</sub> | Qt6 desktop app that turns raw project data into budget, schedule, workforce and safety views. Hand-drawn QPainter charts, validated CSV import, 25 GoogleTest tests, ASan and UBSan in CI. | C++20, Qt6, SQLite, CMake |
-| **[Operational Data Platform](https://github.com/liltaya/Flask-service)**<br><sub>Jul to Aug 2026</sub> | Flask and PostgreSQL REST API deployed with Nginx, systemd and Docker, monitored with Prometheus and Grafana. Includes a command-line log analyzer benchmarked on 1M records. | Python, Flask, PostgreSQL, Docker |
-| **[Stair-Climbing Robot](https://liltaya.github.io/#stair-robot)**<br><sub>ENSC 100 · Dec 2025</sub> | Team-built robot that climbs stairs. I helped assemble it and wrote the C++ code for its Raspberry Pi. | C++, Raspberry Pi |
+**[BuildScope](https://github.com/liltaya/buildscope-ai)** &nbsp;·&nbsp; Python, FastAPI, SQLAlchemy, SQLite, JavaScript, C++20 &nbsp;·&nbsp; *v0.1.0, November 2026*<br>
+A local CI runner that keeps every attempt, test result and benchmark sample, then tells you which commit broke the build, which tests are flaky rather than broken, and which stage got slower. Inside: DAG validation, a durable job queue with leases and crash recovery, flaky-test classification, benchmark slowdown detection and a logistic-regression failure model.<br>
+`706 test cases passing` `24 merged pull requests` `CI on Ubuntu and macOS`
 
 <table>
   <tr>
-    <td width="50%"><a href="https://liltaya.github.io/#stair-robot"><img src="stair-robot.gif" alt="The stair-climbing robot moving its front leg linkage in the SFU engineering lab" width="100%"></a></td>
-    <td width="50%"><a href="https://github.com/liltaya/Construction-dashboard"><img src="dashboard-overview.png" alt="Construction Analytics Dashboard, Overview tab: budget, actual cost, variance, completion, overdue tasks and labor hours" width="100%"></a></td>
-  </tr>
-  <tr>
-    <td><sub>Stair-climbing robot, ENSC 100 lab demo</sub></td>
-    <td><sub>Construction Analytics Dashboard, Overview tab</sub></td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/liltaya/Construction-dashboard"><img src="assets/construction-dashboard.jpg" width="100%" alt="Construction Analytics Dashboard overview: budget, actual cost, variance, completion, overdue tasks and labour hours."></a><br>
+      <b><a href="https://github.com/liltaya/Construction-dashboard">Construction Analytics Dashboard</a></b><br>
+      C++20 · Qt6 · SQLite · CMake<br>
+      Four views of budget, schedule, workforce and safety, with CSV imports validated row by row and saved all or nothing.<br>
+      <code>25/25 GoogleTest</code> <code>ASan + UBSan in CI</code>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://liltaya.github.io/#robot"><img src="assets/stair-robot.gif" width="100%" alt="The stair-climbing robot moving its front leg linkage in the SFU engineering lab."></a><br>
+      <b><a href="https://liltaya.github.io/#robot">Stair-Climbing Robot</a></b><br>
+      ENSC 100 team · C++ · Raspberry Pi<br>
+      A robot built to climb stairs, with its motors driven by a Raspberry Pi. I helped assemble it and wrote the C++ code for the Pi.
+    </td>
   </tr>
 </table>
 
-### Toolkit
+**[Operational Data Platform & Log Analyzer](https://github.com/liltaya/Flask-service)** &nbsp;·&nbsp; Python, Flask, PostgreSQL, Docker, Nginx, Prometheus, Grafana<br>
+A Flask and PostgreSQL API with health checks and metrics, deployed behind Nginx with systemd or in Docker Compose, plus a command-line analyzer that flags attacks like SQL injection and path traversal in server logs.<br>
+`1,000,000 log lines in 16.2 s` `38 tests` `4 CI jobs`
 
-**Languages**<br>
-![Python](https://img.shields.io/badge/Python-14223A?style=flat-square&logo=python&logoColor=white)
-![C++20](https://img.shields.io/badge/C%2B%2B20-14223A?style=flat-square&logo=cplusplus&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-14223A?style=flat-square)
-![Java](https://img.shields.io/badge/Java-14223A?style=flat-square&logo=openjdk&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-14223A?style=flat-square)
-![Bash](https://img.shields.io/badge/Bash-14223A?style=flat-square&logo=gnubash&logoColor=white)
+**[Virus.exe](https://github.com/liltaya/virus-exe)** &nbsp;·&nbsp; C++ &nbsp;·&nbsp; *ENSC 251 team of four, in progress*<br>
+A two-player strategy card game where each player defends a computer's CPU, memory, network and storage with an ordinary 52-card deck. I proposed the concept and rules and designed the class model.
 
-**UI, APIs and data**<br>
-![Qt6](https://img.shields.io/badge/Qt6-14223A?style=flat-square&logo=qt&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-14223A?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-14223A?style=flat-square&logo=flask&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-14223A?style=flat-square&logo=pydantic&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy_2.0-14223A?style=flat-square&logo=sqlalchemy&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14223A?style=flat-square&logo=postgresql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-14223A?style=flat-square&logo=sqlite&logoColor=white)
+<sub>The software above was built, run and tested on 13 November 2026, and the screenshots come from those runs.</sub>
 
-**Testing, CI and Linux**<br>
-![pytest](https://img.shields.io/badge/pytest-14223A?style=flat-square&logo=pytest&logoColor=white)
-![GoogleTest](https://img.shields.io/badge/GoogleTest-14223A?style=flat-square)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-14223A?style=flat-square&logo=githubactions&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-14223A?style=flat-square&logo=cmake&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-14223A?style=flat-square&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-14223A?style=flat-square&logo=nginx&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-14223A?style=flat-square&logo=ubuntu&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-14223A?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-14223A?style=flat-square&logo=grafana&logoColor=white)
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-14223A?style=flat-square&logo=raspberrypi&logoColor=white)
+## Toolkit
 
-### How I work
+![Python](https://img.shields.io/badge/Python-1E1915?style=flat-square&logo=python&logoColor=white)
+![C++20](https://img.shields.io/badge/C%2B%2B20-1E1915?style=flat-square&logo=cplusplus&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-1E1915?style=flat-square&logo=javascript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-1E1915?style=flat-square)
+![Java](https://img.shields.io/badge/Java-1E1915?style=flat-square&logo=openjdk&logoColor=white)
+![MATLAB](https://img.shields.io/badge/MATLAB-1E1915?style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-1E1915?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-1E1915?style=flat-square&logo=flask&logoColor=white)
+![Qt6](https://img.shields.io/badge/Qt6-1E1915?style=flat-square&logo=qt&logoColor=white)
+![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-1E1915?style=flat-square&logo=sqlalchemy&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-1E1915?style=flat-square&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-1E1915?style=flat-square&logo=sqlite&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-1E1915?style=flat-square&logo=pytest&logoColor=white)
+![GoogleTest](https://img.shields.io/badge/GoogleTest-1E1915?style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-1E1915?style=flat-square&logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-1E1915?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-1E1915?style=flat-square&logo=linux&logoColor=white)
+![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-1E1915?style=flat-square&logo=raspberrypi&logoColor=white)
 
-- **Tests and CI on every project.** GoogleTest, CTest and pytest, run by GitHub Actions on pushes and pull requests.
-- **Bad data stops at the boundary.** Input validation, database constraints, typed errors, and all-or-nothing imports.
-- **C++ held to a high bar.** RAII, strict warnings, and test reruns under AddressSanitizer and UBSan.
-- **Written down.** Architecture notes and data models live next to the code.
+## How I work
 
-### Right now
-
-- Building **BuildScope AI**: Git inspection and project detection for local repositories.
-- Designing **Virus.exe**, a two-player C++ strategy card game, with my SFU team.
-- Studying BASc Engineering Science at SFU (CGPA 3.87, graduating May 2029).
+- **Tested before it ships.** Tests run in CI on every change, from 25 GoogleTest cases to 706 pytest cases.
+- **Checked before it is saved.** Imports are validated row by row, and bad data is rejected with a reason before it reaches a database.
+- **Written down.** Architecture notes, data models and release guides live next to the code.
 
 <sub>Burnaby, BC · Authorized to work in Canada · <a href="https://liltaya.github.io">liltaya.github.io</a></sub>
