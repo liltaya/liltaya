@@ -37,9 +37,16 @@ A local CI runner that keeps every attempt, test result and benchmark sample, th
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td width="50%" valign="top"><a href="https://github.com/liltaya/Flask-service"><img src="assets/flask-traffic.jpg" width="100%" alt="Prometheus graph of the Flask API's requests per second by status code during nine minutes of mixed traffic through Nginx."></a></td>
+    <td width="50%" valign="top"><a href="https://github.com/liltaya/Flask-service"><img src="assets/flask-api.png" width="100%" alt="Terminal session through Nginx: health check, item created, 400, 415 and 404 errors, and the request counters on the metrics endpoint."></a></td>
+  </tr>
+</table>
+
 **[Operational Data Platform & Log Analyzer](https://github.com/liltaya/Flask-service)** &nbsp;·&nbsp; Python, Flask, PostgreSQL, Docker, Nginx, Prometheus, Grafana<br>
 A Flask and PostgreSQL API with health checks and metrics, deployed behind Nginx with systemd or in Docker Compose, plus a command-line analyzer that flags attacks like SQL injection and path traversal in server logs.<br>
-`1,000,000 log lines in 16.2 s` `38 tests` `4 CI jobs`
+`1,000,000 log lines in 16.2 s` `38 tests, 93% coverage` `4 CI jobs`
 
 **[Virus.exe](https://github.com/liltaya/virus-exe)** &nbsp;·&nbsp; C++ &nbsp;·&nbsp; *ENSC 251 team of four, in progress*<br>
 A two-player strategy card game where each player defends a computer's CPU, memory, network and storage with an ordinary 52-card deck. I proposed the concept and rules, designed the class model, and wrote the Game and GameUI classes.
