@@ -42,7 +42,7 @@ A Flask and PostgreSQL API with health checks and metrics, deployed behind Nginx
 `1,000,000 log lines in 16.2 s` `38 tests` `4 CI jobs`
 
 **[Virus.exe](https://github.com/liltaya/virus-exe)** &nbsp;·&nbsp; C++ &nbsp;·&nbsp; *ENSC 251 team of four, in progress*<br>
-A two-player strategy card game where each player defends a computer's CPU, memory, network and storage with an ordinary 52-card deck. I proposed the concept and rules and designed the class model.
+A two-player strategy card game where each player defends a computer's CPU, memory, network and storage with an ordinary 52-card deck. I proposed the concept and rules, designed the class model, and wrote the Game and GameUI classes.
 
 <sub>The software above was built, run and tested on 13 November 2026, and the screenshots come from those runs.</sub>
 
